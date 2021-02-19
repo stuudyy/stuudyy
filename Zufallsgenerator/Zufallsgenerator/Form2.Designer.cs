@@ -53,6 +53,7 @@
             this.btnSpeichern.TabIndex = 1;
             this.btnSpeichern.Text = "Speichern";
             this.btnSpeichern.UseVisualStyleBackColor = true;
+            this.btnSpeichern.Click += new System.EventHandler(this.btnSpeichern_Click);
             // 
             // txtEingabe
             // 

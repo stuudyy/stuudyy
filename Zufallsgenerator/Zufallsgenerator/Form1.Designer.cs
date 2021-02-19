@@ -45,9 +45,10 @@
             // btnHinzufügen
             // 
             this.btnHinzufügen.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHinzufügen.Location = new System.Drawing.Point(582, 57);
+            this.btnHinzufügen.Location = new System.Drawing.Point(776, 70);
+            this.btnHinzufügen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnHinzufügen.Name = "btnHinzufügen";
-            this.btnHinzufügen.Size = new System.Drawing.Size(182, 44);
+            this.btnHinzufügen.Size = new System.Drawing.Size(243, 54);
             this.btnHinzufügen.TabIndex = 0;
             this.btnHinzufügen.Text = "Eintrag hinzufügen";
             this.btnHinzufügen.UseVisualStyleBackColor = true;
@@ -56,9 +57,10 @@
             // btnbearbeiten
             // 
             this.btnbearbeiten.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnbearbeiten.Location = new System.Drawing.Point(582, 119);
+            this.btnbearbeiten.Location = new System.Drawing.Point(776, 146);
+            this.btnbearbeiten.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnbearbeiten.Name = "btnbearbeiten";
-            this.btnbearbeiten.Size = new System.Drawing.Size(182, 44);
+            this.btnbearbeiten.Size = new System.Drawing.Size(243, 54);
             this.btnbearbeiten.TabIndex = 1;
             this.btnbearbeiten.Text = "Eintrag bearbeiten";
             this.btnbearbeiten.UseVisualStyleBackColor = true;
@@ -66,9 +68,10 @@
             // btnentfernen
             // 
             this.btnentfernen.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnentfernen.Location = new System.Drawing.Point(582, 179);
+            this.btnentfernen.Location = new System.Drawing.Point(776, 220);
+            this.btnentfernen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnentfernen.Name = "btnentfernen";
-            this.btnentfernen.Size = new System.Drawing.Size(182, 44);
+            this.btnentfernen.Size = new System.Drawing.Size(243, 54);
             this.btnentfernen.TabIndex = 2;
             this.btnentfernen.Text = "Eintrag entfernen";
             this.btnentfernen.UseVisualStyleBackColor = true;
@@ -76,9 +79,10 @@
             // btnAllesEntfernen
             // 
             this.btnAllesEntfernen.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAllesEntfernen.Location = new System.Drawing.Point(582, 242);
+            this.btnAllesEntfernen.Location = new System.Drawing.Point(776, 298);
+            this.btnAllesEntfernen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAllesEntfernen.Name = "btnAllesEntfernen";
-            this.btnAllesEntfernen.Size = new System.Drawing.Size(182, 44);
+            this.btnAllesEntfernen.Size = new System.Drawing.Size(243, 54);
             this.btnAllesEntfernen.TabIndex = 3;
             this.btnAllesEntfernen.Text = "Alle Einträge entfernen";
             this.btnAllesEntfernen.UseVisualStyleBackColor = true;
@@ -86,9 +90,10 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(582, 333);
+            this.button5.Location = new System.Drawing.Point(776, 410);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(182, 44);
+            this.button5.Size = new System.Drawing.Size(243, 54);
             this.button5.TabIndex = 4;
             this.button5.Text = "Alle Einträge sortieren";
             this.button5.UseVisualStyleBackColor = true;
@@ -96,9 +101,10 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(582, 392);
+            this.button6.Location = new System.Drawing.Point(776, 482);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(182, 44);
+            this.button6.Size = new System.Drawing.Size(243, 54);
             this.button6.TabIndex = 5;
             this.button6.Text = "Alle Einträge mischen";
             this.button6.UseVisualStyleBackColor = true;
@@ -135,9 +141,9 @@
             this.listView2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView2.HideSelection = false;
             this.listView2.Location = new System.Drawing.Point(17, 22);
-            this.listView2.Margin = new System.Windows.Forms.Padding(2);
+            this.listView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(530, 425);
+            this.listView2.Size = new System.Drawing.Size(705, 522);
             this.listView2.TabIndex = 6;
             this.listView2.UseCompatibleStateImageBehavior = false;
             this.listView2.View = System.Windows.Forms.View.Details;
@@ -154,9 +160,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 473);
+            this.ClientSize = new System.Drawing.Size(1067, 582);
             this.Controls.Add(this.listView2);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -164,10 +170,9 @@
             this.Controls.Add(this.btnentfernen);
             this.Controls.Add(this.btnbearbeiten);
             this.Controls.Add(this.btnHinzufügen);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "r";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
