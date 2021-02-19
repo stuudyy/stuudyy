@@ -23,5 +23,15 @@ namespace Zufallsgenerator
         {
             f2.Close();
         }
+
+        private void btnSpeichern_Click(object sender, EventArgs e)
+        {
+            if(txtEingabe.Text.Equals(""))
+            {
+                MessageBox.Show("Bitte füllen sie das Feld aus!");
+                return;
+            }
+            
+        }
     }
 }
