@@ -12,14 +12,16 @@ namespace Zufallsgenerator
 {
     public partial class Form2 : Form
     {
+        internal static Form2 f2;
         public Form2()
         {
+            f2 = this;
             InitializeComponent();
         }
 
         private void btnAbbrechen_Click(object sender, EventArgs e)
         {
-
+            f2.Close();
         }
     }
 }
