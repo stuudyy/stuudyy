@@ -12,9 +12,21 @@ namespace Zufallsgenerator
 {
     public partial class Form1 : Form
     {
+        internal static Form1 f1;
+
         public Form1()
         {
+            f1 = this;
             InitializeComponent();
+        }
+
+        internal ListViewItem lvItem;
+        
+
+
+        private void btnHinzufügen_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
