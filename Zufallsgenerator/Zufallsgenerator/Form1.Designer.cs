@@ -135,7 +135,7 @@
             this.Controls.Add(this.btnbearbeiten);
             this.Controls.Add(this.btnHinzufügen);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "r";
             this.ResumeLayout(false);
 
         }
