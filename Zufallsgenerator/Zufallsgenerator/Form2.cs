@@ -18,7 +18,7 @@ namespace Zufallsgenerator
             f2 = this;
             InitializeComponent();
         }
-
+        internal int indexx;
         private void btnAbbrechen_Click(object sender, EventArgs e)
         {
             f2.Close();
@@ -31,7 +31,19 @@ namespace Zufallsgenerator
                 MessageBox.Show("Bitte füllen sie das Feld aus!");
                 return;
             }
-            
+            if (this.Text.Equals("Hinzufügen"))
+            {
+                Form1.f1.projektliste.Add(new Projekte(txtEingabe.Text));
+            }
+            else
+            {
+                Form1.f1.projektliste[indexx].Projekt = txtEingabe.Text;
+               
+            }
+            Form1.f1.xmlSerilasieren();
+            Form1.f1.projektliste = Form1.f1.projektliste.OrderBy(o => o.Nummer).ToList();
+            Form1.f1.listViewEinlesen();
+            this.Close();
         }
     }
 }

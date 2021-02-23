@@ -106,7 +106,7 @@ namespace Zufallsgenerator
             projektliste = new List<Projekte>();
             //serializer = new XmlSerializer(typeof(List<Projekte>));
 
-            projektliste.Add(new Projekte("OpenHakDay"));
+            //projektliste.Add(new Projekte("OpenHakDay"));
             
             //xmlDeserilasieren();
             listViewEinlesen();
