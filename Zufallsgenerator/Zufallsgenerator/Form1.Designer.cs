@@ -46,7 +46,7 @@
             // 
             this.btnHinzufügen.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHinzufügen.Location = new System.Drawing.Point(776, 70);
-            this.btnHinzufügen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHinzufügen.Margin = new System.Windows.Forms.Padding(4);
             this.btnHinzufügen.Name = "btnHinzufügen";
             this.btnHinzufügen.Size = new System.Drawing.Size(243, 54);
             this.btnHinzufügen.TabIndex = 0;
@@ -58,7 +58,7 @@
             // 
             this.btnbearbeiten.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnbearbeiten.Location = new System.Drawing.Point(776, 146);
-            this.btnbearbeiten.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnbearbeiten.Margin = new System.Windows.Forms.Padding(4);
             this.btnbearbeiten.Name = "btnbearbeiten";
             this.btnbearbeiten.Size = new System.Drawing.Size(243, 54);
             this.btnbearbeiten.TabIndex = 1;
@@ -69,7 +69,7 @@
             // 
             this.btnentfernen.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnentfernen.Location = new System.Drawing.Point(776, 220);
-            this.btnentfernen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnentfernen.Margin = new System.Windows.Forms.Padding(4);
             this.btnentfernen.Name = "btnentfernen";
             this.btnentfernen.Size = new System.Drawing.Size(243, 54);
             this.btnentfernen.TabIndex = 2;
@@ -80,7 +80,7 @@
             // 
             this.btnAllesEntfernen.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAllesEntfernen.Location = new System.Drawing.Point(776, 298);
-            this.btnAllesEntfernen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAllesEntfernen.Margin = new System.Windows.Forms.Padding(4);
             this.btnAllesEntfernen.Name = "btnAllesEntfernen";
             this.btnAllesEntfernen.Size = new System.Drawing.Size(243, 54);
             this.btnAllesEntfernen.TabIndex = 3;
@@ -91,7 +91,7 @@
             // 
             this.button5.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(776, 410);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(243, 54);
             this.button5.TabIndex = 4;
@@ -102,7 +102,7 @@
             // 
             this.button6.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(776, 482);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(243, 54);
             this.button6.TabIndex = 5;
@@ -141,7 +141,7 @@
             this.listView2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView2.HideSelection = false;
             this.listView2.Location = new System.Drawing.Point(17, 22);
-            this.listView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listView2.Margin = new System.Windows.Forms.Padding(2);
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(705, 522);
             this.listView2.TabIndex = 6;
@@ -170,9 +170,9 @@
             this.Controls.Add(this.btnentfernen);
             this.Controls.Add(this.btnbearbeiten);
             this.Controls.Add(this.btnHinzufügen);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "r";
+            this.Text = "Projekte";
             this.ResumeLayout(false);
 
         }
